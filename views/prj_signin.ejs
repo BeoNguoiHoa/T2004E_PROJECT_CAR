@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("head5") %>
+<body>
+    <div class="heading">
+        <div class="img-heading">
+            <img src="imgs/f1_logo.svg">
+        </div>
+        <div class="button-heading">
+            <div class="row">
+                <div class="col-sm-5">
+                    <button type="button" onclick="singin()">Singin</button>
+                </div>
+                <div class="col-sm-5">
+                    <button type="button" onclick="register()">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="form-container sing-in-container">
+            <form action="#" method="post">
+                <h1 class="form-heading">SIGN IN</h1>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label>Email address</label>
+                            <input name="acc" type="text" placeholder="Enter your username" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label>Password</label>
+                            <input name="pass" type="password" placeholder="Enter your password" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="forgotten">
+                    <a href="#" class="forgot">Forgotten password?</a>
+                    <button type="submit" class="btn btn-primary">SIGN IN</button>
+                </div>
+                <div>
+                    <p>Don't have an account yet?</p>
+                    <a href="#" class="">Register with F1</a>
+                </div>
+            </form>
+        </div>
+        <div class="form-container register-container">
+            <form action="#" method="post">
+                <h1 class="form-heading">REGISTER ACCOUNT</h1>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label>Title</label>
+                            <select class="form-group" required>
+                                <option value>Select</option>
+                                <option value="Mr">Mr</option>
+                                <option value="Mrs">Mrs</option>
+                                <option value="Miss">Miss</option>
+                                <option value="Ms">Ms</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label>First name</label>
+                            <input name="fn" type="text" placeholder="First name" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label>Last name</label>
+                            <input name="ln" type="text" placeholder="Last name" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label>Date of birth</label>
+                            <input name="dot" type="date" placeholder="MM/DD/YY" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label>Country of residence</label>
+                            <input name="country" type="text" placeholder="Country of residence" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label>Email address</label>
+                            <input name="email" type="email" placeholder="Email address" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label>Password</label>
+                            <input name="pass" type="password" placeholder="************" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="checkbox">
+                                <input id="check" name="check" type="checkbox" required>
+                                <label>I want to receive the latest information from F1® including relevent news,
+                                    surveys, offers, and exclusive competitions.</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <button type="submit" class="btn btn-primary">Register</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label>By clicking on register, I agree that I have read and agree to the</label>
+                            <a href="#" target="_blank">Terms and Conditions</a>
+                            and
+                            <a href="#" target="_blank">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="logo">
+            <img src="imgs/f1_logo.svg">
+        </div>
+        <div class="link">
+            <ul>
+                <li>Privacy Policy</li>
+                <li>Subscprition</li>
+                <li>Term Of Use</li>
+                <li>FAQs</li>
+            </ul>
+        </div>
+    </div>
+    <div class="support">
+        <img class="tk-chat-icon" src="imgs/f1support.png">
+    </div>
+<script type="text/javascript" src="lib/js/jquery.js"></script>
+<script type="text/javascript">
+    $(".sing-in-container").show();
+    $(".register-container").hide();
+    function singin() {
+        $(".sing-in-container").show(500);
+        $(".register-container").hide(500);
+    }
+    function register() {
+        $(".sing-in-container").hide(500);
+        $(".register-container").show(500);
+    }
+</script>
+</body>
+</html>
