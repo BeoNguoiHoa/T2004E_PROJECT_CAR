@@ -16,15 +16,12 @@ app.get("/vedoanhnghiep",function (req,res) {
     res.render("vedoanhnghiep1");
 });
 
-app.get("/vepaddock",function (req,res) {
-    res.render("vepaddock1");
-});
 
 app.get("/vekhandai",function (req,res) {
     res.render("vekhandai1");
 });
 
-app.get("/vedoanhnghiep",function (req,res) {
+app.get("/vephothong",function (req,res) {
     res.render("vephothong1");
 });
 
