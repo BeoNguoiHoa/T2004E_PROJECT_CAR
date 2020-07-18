@@ -11,3 +11,7 @@ app.set("view engine","ejs");
 app.get("/",function (req,res) {
     res.render("home");
 });
+
+app.get("/vedoanhnghiep",function (req,res) {
+    res.render("vedoanhnghiep");
+});
