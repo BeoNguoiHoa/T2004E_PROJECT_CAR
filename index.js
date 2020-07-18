@@ -13,5 +13,21 @@ app.get("/",function (req,res) {
 });
 
 app.get("/vedoanhnghiep",function (req,res) {
-    res.render("vedoanhnghiep");
+    res.render("vedoanhnghiep1");
+});
+
+app.get("/vepaddock",function (req,res) {
+    res.render("vepaddock1");
+});
+
+app.get("/vekhandai",function (req,res) {
+    res.render("vekhandai1");
+});
+
+app.get("/vedoanhnghiep",function (req,res) {
+    res.render("vephothong1");
+});
+
+app.get("/signin",function (req,res) {
+    res.render("prj_signin");
 });
