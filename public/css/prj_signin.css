@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    background: #f6f5f7;
+    display: flex;
+}
+div{
+}
+h1{
+    box-sizing: border-box;
+    float: left;
+    font-weight:bold;
+    margin: 0;
+    border-bottom: 1px solid #d0d0d2;
+    font-size: 22px;
+    margin-top: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+}
+a{
+    color: black;
+    font-size: 17px;
+    margin: 15px 0;
+}
+button{
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    background-color: #d0d0d2;
+}
+form{
+    background-color: #ffffff;
+    /*display: flex;*/
+    /*align-items: center;*/
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+select{
+    background-color: #fff;
+    border: 1px solid #15151e;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+}
+input{
+    background-color: #fff;
+    border: 1px solid #15151e;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+}
+label{
+    float: left;
+    font-size: 17px;
+    letter-spacing: .2px;
+    color: #15151e;
+    display: block;
+    font-weight: 400;
+    padding: 0 10px;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+a{
+    text-decoration: underline;
+    border-bottom: 3px solid red;
+}
+.button-heading{
+    padding: 15px;
+    font-family: F1;
+    font-size: 12px;
+    letter-spacing: .5px;
+    font-weight: 500;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+.form-heading{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d0d0d2;
+}
+.btn{
+    background-color: red;
+    border: 1px solid #ff253a;
+    outline: none;
+
+}
+.btn-primary{
+    background-color: red;
+    padding: 5px 30px;
+}
+#check{
+    position: absolute;
+}
+.heading{
+    float: left;
+    width: auto;
+    height: 300px;
+}
+.img-heading{
+    background-color: black;
+}
+.button-heading{
+    background-color: #d0d0d2;
+    overflow: hidden;
+    z-index: auto;
+    text-align: center;
+    padding: 0 20px;
+}
+.heading button{
+    text-align: center;
+    margin: 0 5px;
+}
+.forgotten forgot{
+    float: right;
+}
+.footer{
+    border: solid 10px #38383f;
+    padding: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-top-right-radius: 25px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+}
+.support{
+    background: none;
+    border: none;
+    background-color: #e10600;
+    color: #fff;
+    height: 48px;
+    width: 48px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.tk-chat-icon{
+    fill: #fff;
+    height: 20px;
+    width: 20px;
+}
