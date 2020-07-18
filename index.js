@@ -8,7 +8,7 @@ app.use(express.static("public"));
 app.set("view engine","ejs");
 
 app.get("/",function (req,res) {
-    res.render("home");
+    res.render("home1");
 });
 
 app.get("/vedoanhnghiep",function (req,res) {
